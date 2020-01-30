@@ -1,0 +1,112 @@
+.header {
+    height: 300px;
+    background-color: red;
+}
+
+
+.social {
+    border: 3px solid black; 
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    border: 3px solid gray; 
+    height: 240px;
+}
+
+/* NAVIGATION MENU */
+.logo {
+    /* border: 3px solid hotpink;  */
+    height: 20px; 
+    width: 30%;
+    margin-left: 3%;
+
+}
+
+.social-menu {
+    /* border: 3px solid yellow;  */
+    height: 20px; 
+    min-width: 30%;
+    margin-right: 3%;
+    text-align: right;
+
+}
+
+/* HERO TEXT */
+.hero-big-text {
+    border: 3px solid darkcyan; 
+    height: 50px; 
+}
+
+.hero-left-block {
+    margin-left: 3%;
+    max-width: 45%;
+    background-color: silver;
+}
+
+
+
+
+/* CONTAINER */
+.container {
+    height: 700px;
+    background-color: gold;
+    overflow: hidden;  /* Ubiraem polosi */
+}
+
+.text {
+    /* border: 3px solid black;  */
+    min-height: 200px;
+    width: 35%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.icon-text {
+    border: 3px solid gray; 
+    height: 150px;
+}
+
+.fr {
+    height: 20px;
+    width: 20px;
+
+    background-color: seagreen;
+}
+
+.fr2 {
+    width: 20px;
+    height: 20px;
+
+    background-color: red;
+}
+
+.fr3 {
+    height: 20px;
+    width: 20px;
+
+    background-color: tan;
+}
+
+.team {
+    border: 3px solid hotpink; 
+    height: 150px;
+}
+
+.contacts {
+    border: 3px solid green; 
+    height: 100px;
+}
+
+/* Footer */
+.footer {
+    height: 100px;
+    background-color: seagreen;
+}
+
+.footer-text {
+    border: 3px solid hotpink; 
+    height: 50px; 
+}
