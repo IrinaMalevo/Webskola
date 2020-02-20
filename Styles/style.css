@@ -1,6 +1,7 @@
 body {
 	font-family: 'Roboto', sans-serif;
-	height: 100%;
+    height: 100%;
+    background-color: gray;
 }
 
 h1 {
@@ -130,10 +131,24 @@ a {
 
 .container {
 	min-height: 700px;
-	/* background-color: gold; */
-	overflow: hidden;
-	/* Ubiraem polosi */
+	background-color: gold;
+    overflow: hidden;
+    width: 95%;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: -100px;
 }
+
+/* .container-middle {
+    width: 95%;
+    background-color: white;
+    margin: 0 auto;
+    position: absolute;
+    top: 900px;
+    left: 0;
+    right: 0;
+
+} */
 
 .text {
 	/* border: 3px solid black;  */
@@ -186,12 +201,18 @@ a {
 	/* background-color: hotpink; */
 }
 
-.team-box img {
+.team-box .social-flex .radius-img img {
+    border-radius: none;
+}
+
+
+.team-box > img {
 	-webkit-box-shadow: 0px 17px 25px 0px rgba(102, 102, 102, 1);
 	-moz-box-shadow: 0px 17px 25px 0px rgba(102, 102, 102, 1);
 	box-shadow: 0px 17px 25px 0px rgba(102, 102, 102, 1);
 	border-radius: 50%;
 }
+
 
 .social-flex {
 	display: flex;
@@ -293,7 +314,8 @@ button {
 	height: 100px;
 	background-color: seagreen;
 	display: flex;
-	justify-content: space-between;
+    justify-content: space-between;
+    
 }
 
 .footer-text {
