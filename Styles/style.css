@@ -304,14 +304,36 @@ button {
 /* Footer */
 
 .footer {
-	height: 100px;
-	background-color: seagreen;
+	height: 70px;
+	/* background-color: seagreen; */
 	display: flex;
     justify-content: space-between;
-    
+    width: 70%;
+    margin: 0 auto;
+    display: flex;    
 }
 
-.footer-text {
-	/* border: 3px solid hotpink;  */
-	height: 50px;
+.footer-menu {
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.footer-menu a, .footer-text p {
+    color: #333333;
+}
+
+.footer-menu a {
+    margin-right: 20px;
+    font-weight: 700;
+}
+
+.footer-text p {
+    font-size: 14px;
+}
+
+.footer {
+    margin-top: 20px;
 }
