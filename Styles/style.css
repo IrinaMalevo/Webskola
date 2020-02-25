@@ -337,3 +337,20 @@ button {
 .footer {
     margin-top: 0px;
 }
+
+/* !!!!!SignUp page!!!!! */
+
+.header_signup {
+    background: url("../Styles/img/BG.png") no-repeat center center;
+	min-height: 930px;
+    background-size: cover;
+}
+
+.form_signup {
+width: 365px;
+height: 470px;
+background: #FFFFFF;
+border-radius: 3px;
+margin: 0 auto;
+margin-top: 80px;
+}
